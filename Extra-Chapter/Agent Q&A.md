@@ -1,5 +1,9 @@
-# Extra Chapter : Agent Q&A 
+# Extra Chapter: Agent Q&A 
 
-本章节主要收集一些互联网上关于Agent的面试题
+This chapter mainly collects interview questions about Agents from the internet.
+
+For a comprehensive collection of interview questions, please refer to:
+- [Extra01-Interview-Questions-Summary.md](./Extra01-Interview-Questions-Summary.md) - Complete set of LLM, VLM, Agent, RAG, RLHF interview questions
+- [Extra01-参考答案.md](./Extra01-参考答案.md) - Reference answers (Chinese version)
 
 ## 
