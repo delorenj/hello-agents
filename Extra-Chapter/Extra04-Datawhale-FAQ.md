@@ -79,7 +79,7 @@
 - Key points:
   - Course **Chapter 7** provides both routes: local deployment and cloud API.
   - Learning phase: Prioritize API (lower barrier); consider local only when cost control or offline deployment is needed.
-- Course guidance: Chapter 10
+- Course guidance: Chapter 7, Chapter 10
 
 Related course guidance:
 - 🔗 Chapter 5 "Building Agents with Low-Code Platforms." [Jump to Chapter 5](https://github.com/datawhalechina/hello-agents/blob/main/docs/chapter5/Chapter5-Building-Agents-with-Low-Code-Platforms.md)

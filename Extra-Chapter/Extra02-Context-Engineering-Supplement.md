@@ -359,7 +359,7 @@ Only by understanding these questions can we achieve effective context engineeri
 
 ## References
 
-沧海九粟. Context Engineering: Key Technology for Optimizing Agent Performance[EB/OL]. (2025-07-10)[2025-10-21]. https://www.bilibili.com/video/BV1w3GNzeEHb/?spm_id_from=333.1387.upload.video_card.click&vd_source=0f47ed6b43bae0b240e774a8fd72e3e4
+Canghai Jiusu (沧海九粟). Context Engineering: Key Technology for Optimizing Agent Performance[EB/OL]. (2025-07-10)[2025-10-21]. https://www.bilibili.com/video/BV1w3GNzeEHb/?spm_id_from=333.1387.upload.video_card.click&vd_source=0f47ed6b43bae0b240e774a8fd72e3e4
 
 Drew Breunig. How Long Contexts Fail[EB/OL]. (2025-06-22)[2025-10-21]. https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com
 
