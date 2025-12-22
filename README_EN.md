@@ -1,149 +1,154 @@
 <div align="right">
-  English | <a href="./README.md">中文</a>
+  <a href="./README.md">English</a> | 中文
 </div>
 
 <div align='center'>
   <img src="./docs/images/hello-agents.png" alt="alt text" width="100%">
   <h1>Hello-Agents</h1>
-  <h3>🤖 "Building Agent Systems from Scratch"</h3>
+  <h3>🤖 《从零开始构建智能体》</h3>
   <div align="center">
   <a href="https://trendshift.io/repositories/15520" target="_blank">
     <img src="https://trendshift.io/api/badge/repositories/15520" alt="datawhalechina%2Fhello-agents | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
   </a>
   </div>
-  <p><em>From foundational theory to practical applications, master the design and implementation of agent systems</em></p>
+  <p><em>从基础理论到实际应用，全面掌握智能体系统的设计与实现</em></p>
   <img src="https://img.shields.io/github/stars/datawhalechina/Hello-Agents?style=flat&logo=github" alt="GitHub stars"/>
   <img src="https://img.shields.io/github/forks/datawhalechina/Hello-Agents?style=flat&logo=github" alt="GitHub forks"/>
-  <img src="https://img.shields.io/badge/language-English-brightgreen?style=flat" alt="Language"/>
+  <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=flat" alt="Language"/>
   <a href="https://github.com/datawhalechina/Hello-Agents"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
-  <a href="https://datawhalechina.github.io/hello-agents/"><img src="https://img.shields.io/badge/Online%20Reading-green?style=flat&logo=gitbook" alt="Online Reading"></a>
+  <a href="https://datawhalechina.github.io/hello-agents/"><img src="https://img.shields.io/badge/在线阅读-Online%20Reading-green?style=flat&logo=gitbook" alt="Online Reading"></a>
 </div>
 
 ---
 
-## 🎯 Project Introduction
+## 🎯 项目介绍
 
-&emsp;&emsp;If 2024 was the year of the "Battle of a Hundred Models," then 2025 has undoubtedly ushered in the "Year of Agents." The focus of technology is shifting from training larger foundation models to building smarter agent applications. However, systematic, practice-oriented tutorials are extremely scarce. For this reason, we launched the Hello-Agents project, hoping to provide the community with a comprehensive guide to building agent systems from scratch, balancing theory and practice.
+&emsp;&emsp;如果说 2024 年是"百模大战"的元年，那么 2025 年无疑开启了"Agent 元年"。技术的焦点正从训练更大的基础模型，转向构建更聪明的智能体应用。然而，当前系统性、重实践的教程却极度匮乏。为此，我们发起了 Hello-Agents 项目，希望能为社区提供一本从零开始、理论与实战并重的智能体系统构建指南。
 
-&emsp;&emsp;Hello-Agents is a **systematic agent learning tutorial** from the Datawhale community. Today, agent development is mainly divided into two schools: one is software engineering-oriented agents like Dify, Coze, and n8n, which are essentially process-driven software development with LLMs serving as data processing backends; the other is AI-native agents, truly AI-driven agents. This tutorial aims to lead you to deeply understand and build the latter—truly AI Native Agents. The tutorial will guide you through the surface of frameworks, starting from the core principles of agents, delving into their core architecture, understanding their classic paradigms, and ultimately building your own multi-agent applications. We believe that the best way to learn is through hands-on practice. We hope this tutorial can be your starting point for exploring the world of agents, transforming you from a "user" of large language models to a "builder" of agent systems.
+&emsp;&emsp;Hello-Agents 是 Datawhale 社区的<strong>系统性智能体学习教程</strong>。如今 Agent 构建主要分为两派，一派是 Dify，Coze，n8n 这类软件工程类 Agent，其本质是流程驱动的软件开发，LLM 作为数据处理的后端；另一派则是 AI 原生的 Agent，即真正以 AI 驱动的 Agent。本教程旨在带领大家深入理解并构建后者——真正的 AI Native Agent。教程将带领你穿透框架表象，从智能体的核心原理出发，深入其核心架构，理解其经典范式，并最终亲手构建起属于自己的多智能体应用。我们相信，最好的学习方式就是动手实践。希望这本教程能成为你探索智能体世界的起点，能够从一名大语言模型的"使用者"，蜕变为一名智能体系统的"构建者"。
 
-## 📚 Quick Start
+## 📚 快速开始
 
-### Online Reading
-**[🌐 Click here to start reading online](https://datawhalechina.github.io/hello-agents/)** - No download required, learn anytime, anywhere
+### 在线阅读
+**[🌐 点击这里开始在线阅读](https://datawhalechina.github.io/hello-agents/)** - 无需下载，随时随地学习
 
-**[📖 Cookbook (Beta)](https://book.heterocat.com.cn/)**
+**[📖 Cookbook(测试版)](https://book.heterocat.com.cn/)**
 
-### Local Reading
-If you wish to read locally or contribute content, please refer to the learning guide below.
+### 本地阅读
+如果您希望在本地阅读或贡献内容，请参考下方的学习指南。
 
-### ✨ What Will You Gain?
+### ✨ 你将收获什么？
 
-- 📖 **Datawhale Open Source & Free** - Learn all project content completely free, grow with the community
-- 🔍 **Understand Core Principles** - Deeply understand agent concepts, history, and classic paradigms
-- 🏗️ **Hands-on Implementation** - Master popular low-code platforms and agent code frameworks
-- 🛠️ **Self-developed Framework [HelloAgents](https://github.com/jjyaoao/helloagents)** - Build your own agent framework from scratch based on OpenAI native API
-- ⚙️ **Master Advanced Skills** - Step-by-step implementation of context engineering, Memory, protocols, evaluation, and other systematic technologies
-- 🤝 **Model Training** - Master Agentic RL, from SFT to GRPO full-process practical LLM training
-- 🚀 **Drive Real Cases** - Practical development of intelligent travel assistants, cyber towns, and other comprehensive projects
-- 📖 **Job Interviews** - Learn agent-related interview questions for job hunting
+- 📖 <strong>Datawhale 开源免费</strong> 完全免费学习本项目所有内容，与社区共同成长
+- 🔍 <strong>理解核心原理</strong> 深入理解智能体的概念、历史与经典范式
+- 🏗️ <strong>亲手实现</strong> 掌握热门低代码平台和智能体代码框架的使用
+- 🛠️ <strong>自研框架[HelloAgents](https://github.com/jjyaoao/helloagents)</strong> 基于 Openai 原生 API 从零构建一个自己的智能体框架
+- ⚙️ <strong>掌握高级技能</strong> 一步步实现上下文工程、Memory、协议、评估等系统性技术
+- 🤝 <strong>模型训练</strong> 掌握 Agentic RL，从 SFT 到 GRPO 的全流程实战训练 LLM
+- 🚀 <strong>驱动真实案例</strong> 实战开发智能旅行助手、赛博小镇等综合项目
+- 📖 <strong>求职面试</strong> 学习智能体求职相关面试问题
 
-## 📖 Content Navigation
+## 📖 内容导航
 
-| Chapter                                                                                                               | Key Content                                                                | Status |
-| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------ |
-| [Preface](./docs/Preface.md)                                                                                          | Project origin, background, and reader suggestions                         | ✅      |
-| **Part 1: Agent and Language Model Fundamentals**                                                                     |                                                                            |        |
-| [Chapter 1: Introduction to Agents](./docs/chapter1/Chapter1-Introduction-to-Agents.md)                               | Agent definition, types, paradigms, and applications                       | ✅      |
-| [Chapter 2: History of Agents](./docs/chapter2/Chapter2-History-of-Agents.md)                                         | Evolution from symbolism to LLM-driven agents                              | ✅      |
-| [Chapter 3: Large Language Model Fundamentals](./docs/chapter3/Chapter3-Fundamentals-of-Large-Language-Models.md)     | Transformer, prompts, mainstream LLMs and their limitations                | ✅      |
-| **Part 2: Building Your LLM Agent**                                                                                   |                                                                            |        |
-| [Chapter 4: Classic Agent Paradigm Construction](./docs/chapter4/Chapter4-Building-Classic-Agent-Paradigms.md)        | Hands-on implementation of ReAct, Plan-and-Solve, Reflection               | ✅      |
-| [Chapter 5: Low-Code Platform Agent Development](./docs/chapter5/Chapter5-Building-Agents-with-Low-Code-Platforms.md) | Understanding Coze, Dify, n8n and other low-code agent platforms           | ✅      |
-| [Chapter 6: Framework Development Practice](./docs/chapter6/Chapter6-Framework-Development-Practice.md)               | AutoGen, AgentScope, LangGraph and other mainstream framework applications | ✅      |
-| [Chapter 7: Building Your Agent Framework](./docs/chapter7/Chapter7-Building-Your-Agent-Framework.md)                 | Building an agent framework from scratch                                   | ✅      |
-| **Part 3: Advanced Knowledge Extension**                                                                              |                                                                            |        |
-| [Chapter 8: Memory and Retrieval](./docs/chapter8/Chapter8-Memory-and-Retrieval.md)                                   | Memory systems, RAG, storage                                               | ✅      |
-| [Chapter 9: Context Engineering](./docs/chapter9/Chapter9-Context-Engineering.md)                                     | "Contextual understanding" for continuous interaction                      | ✅      |
-| [Chapter 10: Agent Communication Protocols](./docs/chapter10/Chapter10-Agent-Communication-Protocols.md)              | MCP, A2A, ANP and other protocol analysis                                  | ✅      |
-| [Chapter 11: Agentic-RL](./docs/chapter11/Chapter11-Agentic-RL.md)                                                    | Practical LLM training from SFT to GRPO                                    | ✅      |
-| [Chapter 12: Agent Performance Evaluation](./docs/chapter12/Chapter12-Agent-Performance-Evaluation.md)                | Core metrics, benchmarks, and evaluation frameworks                        | ✅      |
-| **Part 4: Comprehensive Case Studies**                                                                                |                                                                            |        |
-| [Chapter 13: Intelligent Travel Assistant](./docs/chapter13/Chapter13-Intelligent-Travel-Assistant.md)                | Real-world applications of MCP and multi-agent collaboration               | ✅      |
-| [Chapter 14: Automated Deep Research Agent](./docs/chapter14/Chapter14-Automated-Deep-Research-Agent.md)              | DeepResearch Agent reproduction and analysis                               | ✅      |
-| [Chapter 15: Building a Cyber Town](./docs/chapter15/Chapter15-Building-Cyber-Town.md)                                | Combining agents with games, simulating social dynamics                    | ✅      |
-| **Part 5: Capstone Project and Future Outlook**                                                                       |                                                                            |        |
-| [Chapter 16: Capstone Project](./docs/chapter16/Chapter16-Graduation-Project.md)                                      | Build your own complete multi-agent application                            | ✅      |
+| 章节                                                                                        | 关键内容                                      | 状态 |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------- | ---- |
+| [前言](./docs/前言.md)                                                                      | 项目的缘起、背景及读者建议                    | ✅    |
+| <strong>第一部分：智能体与语言模型基础</strong>                                             |                                               |      |
+| [第一章 初识智能体](./docs/chapter1/第一章%20初识智能体.md)                                 | 智能体定义、类型、范式与应用                  | ✅    |
+| [第二章 智能体发展史](./docs/chapter2/第二章%20智能体发展史.md)                             | 从符号主义到 LLM 驱动的智能体演进             | ✅    |
+| [第三章 大语言模型基础](./docs/chapter3/第三章%20大语言模型基础.md)                         | Transformer、提示、主流 LLM 及其局限          | ✅    |
+| <strong>第二部分：构建你的大语言模型智能体</strong>                                         |                                               |      |
+| [第四章 智能体经典范式构建](./docs/chapter4/第四章%20智能体经典范式构建.md)                 | 手把手实现 ReAct、Plan-and-Solve、Reflection  | ✅    |
+| [第五章 基于低代码平台的智能体搭建](./docs/chapter5/第五章%20基于低代码平台的智能体搭建.md) | 了解 Coze、Dify、n8n 等低代码智能体平台使用   | ✅    |
+| [第六章 框架开发实践](./docs/chapter6/第六章%20框架开发实践.md)                             | AutoGen、AgentScope、LangGraph 等主流框架应用 | ✅    |
+| [第七章 构建你的Agent框架](./docs/chapter7/第七章%20构建你的Agent框架.md)                   | 从 0 开始构建智能体框架                       | ✅    |
+| <strong>第三部分：高级知识扩展</strong>                                                     |                                               |      |
+| [第八章 记忆与检索](./docs/chapter8/第八章%20记忆与检索.md)                                 | 记忆系统，RAG，存储                           | ✅    |
+| [第九章 上下文工程](./docs/chapter9/第九章%20上下文工程.md)                                 | 持续交互的"情境理解"                          | ✅    |
+| [第十章 智能体通信协议](./docs/chapter10/第十章%20智能体通信协议.md)                        | MCP、A2A、ANP 等协议解析                      | ✅    |
+| [第十一章 Agentic-RL](./docs/chapter11/第十一章%20Agentic-RL.md)                            | 从 SFT 到 GRPO 的 LLM 训练实战                | ✅    |
+| [第十二章 智能体性能评估](./docs/chapter12/第十二章%20智能体性能评估.md)                    | 核心指标、基准测试与评估框架                  | ✅    |
+| <strong>第四部分：综合案例进阶</strong>                                                     |                                               |      |
+| [第十三章 智能旅行助手](./docs/chapter13/第十三章%20智能旅行助手.md)                        | MCP 与多智能体协作的真实世界应用              | ✅    |
+| [第十四章 自动化深度研究智能体](./docs/chapter14/第十四章%20自动化深度研究智能体.md)        | DeepResearch Agent 复现与解析                 | ✅    |
+| [第十五章 构建赛博小镇](./docs/chapter15/第十五章%20构建赛博小镇.md)                        | Agent 与游戏的结合，模拟社会动态              | ✅    |
+| <strong>第五部分：毕业设计及未来展望</strong>                                               |                                               |      |
+| [第十六章 毕业设计](./docs/chapter16/第十六章%20毕业设计.md)                                | 构建属于你的完整多智能体应用                  | ✅    |
 
-### Community Contributions
+### 社区贡献精选 (Community Blog)
 
-&emsp;&emsp;We welcome everyone to contribute their unique insights and practical summaries from learning Hello-Agents or Agent-related technologies to the community selection in the form of PRs. If the content is independent of the main text, you can also submit it to Extra-Chapter! **Looking forward to your first contribution!**
+&emsp;&emsp;欢迎大家将在学习 Hello-Agents 或 Agent 相关技术中的独到见解、实践总结，以 PR 的形式贡献到社区精选。如果是独立于正文的内容，也可以投稿至 Extra-Chapter！<strong>期待你的第一次贡献！</strong>
 
-| Community Selection                                                                                                                                            | Content Summary                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [01-Agent Interview Questions Summary](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-面试问题总结.md)                         | Agent position-related interview questions |
-| [01-Agent Interview Answers](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-参考答案.md)                                       | Answers to related interview questions     |
-| [02-Context Engineering Content Supplement](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra02-上下文工程补充知识.md)              | Context engineering content extension      |
-| [03-Dify Agent Creation Step-by-Step Tutorial](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra03-Dify智能体创建保姆级操作流程.md) | Dify Agent Creation Step-by-Step Tutorial  |
-| [04-Hello-agents Course Common Questions](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra04-DatawhaleFAQ.md)                      | Datawhale Course Common Questions          |
+| 社区精选                                                                                                                                      | 内容总结                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| [01-Agent面试题总结](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-面试问题总结.md)                          | Agent 岗位相关面试问题   |
+| [01-Agent面试题答案](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-参考答案.md)                              | 相关面试问题答案         |
+| [02-上下文工程内容补充](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra02-上下文工程补充知识.md)                 | 上下文工程内容扩展       |
+| [03-Dify智能体创建保姆级教程](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra03-Dify智能体创建保姆级操作流程.md) | Dify智能体创建保姆级教程 |
+| [04-Hello-agents课程常见问题](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra04-DatawhaleFAQ.md)                 | Datawhale课程常见问题    |
 
-### PDF Version Download
+### PDF 版本下载
 
-&emsp;&emsp;*<strong>This Hello-Agents PDF tutorial is completely open source and free. To prevent various marketing accounts from adding watermarks and selling it to multi-agent system beginners, we have pre-added a Datawhale open source logo watermark that does not affect reading in the PDF file. Please understand~</strong>*
+&emsp;&emsp;*<strong>本 Hello-Agents PDF 教程完全开源免费。为防止各类营销号加水印后贩卖给多智能体系统初学者，我们特地在 PDF 文件中预先添加了不影响阅读的 Datawhale 开源标志水印，敬请谅解～</strong>*
 
-> *Hello-Agents PDF: https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.0*  
-> *Hello-Agents PDF Domestic Download: https://www.datawhale.cn/learn/summary/239* 
+> *Hello-Agents PDF : https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.0*  
+> *Hello-Agents PDF 国内下载地址 : https://www.datawhale.cn/learn/summary/239* 
 
-## 💡 How to Learn
+## 💡 如何学习
 
-&emsp;&emsp;Welcome, future builder of intelligent systems! Before embarking on this exciting journey, please allow us to give you some clear guidance.
+&emsp;&emsp;欢迎你，未来的智能系统构建者！在开启这段激动人心的旅程之前，请允许我们给你一些清晰的指引。
 
-&emsp;&emsp;This project balances theory and practice, aiming to help you systematically master the entire process of designing and developing from single agents to multi-agent systems. Therefore, it is especially suitable for **AI developers, software engineers, students** with some programming foundation, as well as **self-learners** with a strong interest in cutting-edge AI technology. Before learning this project, we hope you have basic Python programming skills and a basic conceptual understanding of large language models (for example, knowing how to call an LLM through an API). The focus of the project is on application and construction, so you do not need a deep background in algorithms or model training.
+&emsp;&emsp;本项目内容兼顾理论与实战，旨在帮助你系统性地掌握从单个智能体到多智能体系统的设计与开发全流程。因此，尤其适合有一定编程基础的 <strong>AI 开发者、软件工程师、在校学生</strong> 以及对前沿 AI 技术抱有浓厚兴趣的 <strong>自学者</strong>。在学习本项目之前，我们希望你具备基础的 Python 编程能力，并对大语言模型有基本的概念性了解（例如，知道如何通过 API 调用一个 LLM）。项目的重点是应用与构建，因此你无需具备深厚的算法或模型训练背景。
 
-&emsp;&emsp;The project is divided into five major parts, each being a solid step towards the next stage:
+&emsp;&emsp;项目分为五大部分，每一部分都是通往下一阶段的坚实阶梯：
 
-- **Part 1: Agent and Language Model Fundamentals** (Chapters 1-3), we will start from the definition, types, and development history of agents, sorting out the ins and outs of the concept of "agents." Then, we will quickly consolidate the core knowledge of large language models, laying a solid theoretical foundation for your practical journey.
+- <strong>第一部分：智能体与语言模型基础</strong>（第一章～第三章），我们将从智能体的定义、类型与发展历史讲起，为你梳理"智能体"这一概念的来龙去脉。随后，我们会快速巩固大语言模型的核心知识，为你的实践之旅打下坚实的理论地基。
 
-- **Part 2: Building Your LLM Agent** (Chapters 4-7), this is the starting point of your hands-on practice. You will personally implement classic paradigms such as ReAct, experience the convenience of low-code platforms like Coze, and master the application of mainstream frameworks like Langgraph. Finally, we will also guide you to build your own agent framework from scratch, giving you the ability to both "use wheels" and "build wheels."
+- <strong>第二部分：构建你的大语言模型智能体</strong>（第四章～第七章），这是你动手实践的起点。你将亲手实现 ReAct 等经典范式，体验 Coze 等低代码平台的便捷，并掌握 Langgraph 等主流框架的应用。最终，我们还会带你从零开始构建一个属于自己的智能体框架，让你兼具“用轮子”与“造轮子”的能力。
 
-- **Part 3: Advanced Knowledge Extension** (Chapters 8-12), in this part, your agent will "learn" to think and collaborate. We will use the self-developed framework from Part 2 to deeply explore core technologies such as memory and retrieval, context engineering, and Agent training, and learn communication protocols between multi-agents. Finally, you will master professional methods for evaluating agent system performance.
+- <strong>第三部分：高级知识扩展</strong>（第八章～第十二章），在这一部分，你的智能体将“学会”思考与协作。我们将使用第二部分的自研框架，深入探索记忆与检索、上下文工程、Agent 训练等核心技术，并学习多智能体间的通信协议。最终，你将掌握评估智能体系统性能的专业方法。
 
-- **Part 4: Comprehensive Case Studies** (Chapters 13-15), this is the intersection of theory and practice. You will integrate what you have learned and personally create intelligent travel assistants, automated deep research agents, and even a cyber town that simulates social dynamics, tempering your construction ability in real and interesting projects.
+- <strong>第四部分：综合案例进阶</strong>（第十三章～第十五章），这里是理论与实践的交汇点。你将把所学融会贯通，亲手打造智能旅行助手、自动化深度研究智能体，乃至一个模拟社会动态的赛博小镇，在真实有趣的项目中淬炼你的构建能力。
 
-- **Part 5: Capstone Project and Future Outlook** (Chapter 16), at the end of the journey, you will face a capstone project, building a complete multi-agent application of your own, comprehensively testing your learning outcomes. We will also look forward to the future of agents with you, exploring exciting frontier directions.
+- <strong>第五部分：毕业设计及未来展望</strong>（第十六章），在旅程的终点，你将迎来一个毕业设计，构建一个完整的、属于你自己的多智能体应用，全面检验你的学习成果。我们还将与你一同展望智能体的未来，探索激动人心的前沿方向。
 
-&emsp;&emsp;Agents are a rapidly developing field that is extremely dependent on practice. To achieve the best learning effect, we provide all supporting code in the project's `code` folder. We strongly recommend that you **combine theory with practice**. Please be sure to personally run, debug, and even modify every piece of code provided in the project. You are welcome to follow Datawhale and other Agent-related communities at any time. When you encounter problems, you can ask questions in the issue area of this project at any time.
 
-&emsp;&emsp;Now, are you ready to enter the wonderful world of agents? Let's start right away!
+&emsp;&emsp;智能体是一个飞速发展且极度依赖实践的领域。为了获得最佳的学习效果，我们在项目的`code`文件夹内提供了配套的全部代码，强烈建议你<strong>将理论与实践相结合</strong>。请务必亲手运行、调试甚至修改项目里提供的每一份代码。欢迎你随时关注 Datawhale 以及其他 Agent 相关社区，当遇到问题时，你可以随时在本项目的 issue 区提问。
 
-## 🤝 How to Contribute
+&emsp;&emsp;现在，准备好进入智能体的奇妙世界了吗？让我们即刻启程！
 
-We are an open-source community and welcome any form of contribution!
+## 下一步规划
+- []英文版教程
+- []双语视频课程[英文+中文]（将会更加细致，实践课带领大家从设计思路到实施，授人以鱼也授人以渔）
+- []共创第16章（打造各类Agent应用,更打造Agent生态）
+  
+## 🤝 如何贡献
 
-- 🐛 **Report Bugs** - Found content or code issues, please submit an Issue
-- 💡 **Make Suggestions** - Have good ideas for the project, welcome to initiate discussions
-- 📝 **Improve Content** - Help improve the tutorial, submit your Pull Request
-- ✍️ **Share Practice** - Share your learning notes and projects in "Community Contributions"
+我们是一个开放的开源社区，欢迎任何形式的贡献！
 
-## 🙏 Acknowledgments
+- 🐛 <strong>报告 Bug</strong> - 发现内容或代码问题，请提交 Issue
+- 💡 <strong>提出建议</strong> - 对项目有好想法，欢迎发起讨论
+- 📝 <strong>完善内容</strong> - 帮助改进教程，提交你的 Pull Request
+- ✍️ <strong>分享实践</strong> - 在"社区贡献精选"中分享你的学习笔记和项目
 
-### Core Contributors
-- [Chen Sizhou - Project Lead](https://github.com/jjyaoao) (Datawhale member, full text writing and proofreading)
-- [Sun Tao - Project Lead](https://github.com/fengju0213) (Datawhale member, Chapter 9 content and proofreading)
-- [Jiang Shufan - Project Lead](https://github.com/Tsumugii24) (Datawhale member, chapter exercise design and proofreading)
-- [Huang Peilin - Datawhale Prospective Member](https://github.com/HeteroCat) (Agent Development Engineer, Chapter 5 content contributor)
-- [Zeng Xinmin - Agent Engineer](https://github.com/fancyboi999) (Niuke Technology, Chapter 14 case development)
-- [Zhu Xinzhong - Advisory Expert](https://xinzhongzhu.github.io/) (Chief Scientist of Datawhale, Professor at Hangzhou Institute of Artificial Intelligence, Zhejiang Normal University)
+## 🙏 致谢
 
-### Extra-Chapter Contributors
-- [WH](https://github.com/WHQAQ11) (Content contributor)
-- [Zhou Aojie - DW Contributor Team](https://github.com/thunderbolt-fire) (Xi'an Jiaotong University, Extra02 content contribution)
-- [Zhang Chenxu - Individual Developer](https://github.com/Tasselszcx) (Imperial College London, Extra03 Content Contributor)
-- [Huang Honghan - DW Contributor Team](https://github.com/XiaoMa-PM) (Shenzhen University, Extra04 Content Contributor)
+### 核心贡献者
+- [陈思州-项目负责人](https://github.com/jjyaoao) (Datawhale 成员, 全文写作和校对)
+- [孙韬-项目负责人](https://github.com/fengju0213) (Datawhale 成员, 第九章内容和校对)  
+- [姜舒凡-项目负责人](https://github.com/Tsumugii24)（Datawhale 成员, 章节习题设计和校对）
+- [黄佩林-Datawhale意向成员](https://github.com/HeteroCat) (Agent 开发工程师, 第五章内容贡献者)
+- [曾鑫民-Agent工程师](https://github.com/fancyboi999) (牛客科技, 第十四章案例开发)
+- [朱信忠-指导专家](https://xinzhongzhu.github.io/) (Datawhale首席科学家-浙江师范大学杭州人工智能研究院教授)
+### Extra-Chapter 贡献者
+- [WH](https://github.com/WHQAQ11) (内容贡献者)
+- [周奥杰-DW贡献者团队](https://github.com/thunderbolt-fire) (西安交通大学, Extra02 内容贡献)
+- [张宸旭-个人开发者](https://github.com/Tasselszcx)(帝国理工学院, Extra03 内容贡献)
+- [黄宏晗-DW贡献者团队](https://github.com/XiaoMa-PM) (深圳大学, Extra04 内容贡献)
 
-### Special Thanks
-- Thanks to [@Sm1les](https://github.com/Sm1les) for help and support for this project
-- Thanks to all developers who have contributed to this project ❤️
+### 特别感谢
+- 感谢 [@Sm1les](https://github.com/Sm1les) 对本项目的帮助与支持
+- 感谢所有为本项目做出贡献的开发者们 ❤️
 
 <div align=center style="margin-top: 30px;">
   <a href="https://github.com/datawhalechina/Hello-Agents/graphs/contributors">
@@ -158,19 +163,18 @@ We are an open-source community and welcome any form of contribution!
 </div>
 
 <div align="center">
-  <p>⭐ If this project helps you, please give us a Star!</p>
+  <p>⭐ 如果这个项目对你有帮助，请给我们一个 Star！</p>
 </div>
 
-## About Datawhale
+## 关于 Datawhale
 
 <div align='center'>
     <img src="./docs/images/datawhale.png" alt="Datawhale" width="30%">
-    <p>Scan the QR code to follow the Datawhale official account and get more high-quality open source content</p>
+    <p>扫描二维码关注 Datawhale 公众号，获取更多优质开源内容</p>
 </div>
 
 ---
 
-## 📜 Open Source License
+## 📜 开源协议
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
+本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
